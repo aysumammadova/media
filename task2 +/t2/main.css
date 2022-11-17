@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section main {
+  width: 100%;
+}
+section main .container {
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+}
+section main .container .main--content {
+  width: 100%;
+}
+section main .container .main--content .gallery {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+section main .container .main--content .gallery .cards {
+  width: 32%;
+}
+section main .container .main--content .gallery .cards .cards--image img {
+  width: 100%;
+}
+section main .container .main--content .gallery .cards .cards--info .buttons {
+  display: flex;
+  margin: 0 auto;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+section main .container .main--content .gallery .cards .cards--info .buttons .blue {
+  background-color: blue;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+section main .container .main--content .gallery .cards .cards--info .buttons .green {
+  background-color: green;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+section main .container .main--content .gallery .cards .cards--info .buttons .orange {
+  background-color: orange;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+section main .container .main--content .gallery .cards .cards--info .buttons .black {
+  background-color: black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+        ul{
+            display: flex;
+            list-style-type: none;
+            li{
+                display: flex;
+                flex-direction: column;
+                .text{
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                    font-weight: 800;
+                }
+              .about{
+                ul{
+                    display: block;
+                    li{
+                        .cards{
+                            display: flex;
+                            .cards--img{
+                                width: 20%;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            .cards--info{
+                                margin: 15px 5px;
+                                h5{ font-size: 17px;}
+                                .price{ 
+                                font-size: 14px;
+                                font-weight: 700;
+                            }
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main{
+        .container{
+            ul{
+                flex-wrap: wrap;
+                li{
+                    .text{
+                        font-size: 50px;
+                    }
+                    .about{
+                        ul{
+                            li{
+                                width: 700px;
+                                .cards{
+                                    .cards--img{}
+                                    .cards--info{
+                                        h5{
+                                            font-size: 25px;
+                                        }
+                                        .price{ font-size: 20px;}
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

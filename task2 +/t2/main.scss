@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    main {
+        width: 100%;
+
+        .container {
+            width: 80%;
+            text-align: center;
+            justify-content: center;
+            .main--content{
+                width: 100%;
+            .header {
+                h6 {}
+
+                h2 {}
+
+                p {}
+            }
+
+            .gallery {
+                flex-wrap: wrap;
+                display: flex;
+                width: 100%;
+                margin: 0 auto;
+                justify-content: space-between;
+
+                .cards {
+                    width: 32%;
+
+                    .cards--image {
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .cards--info {
+                        h5 {}
+
+                        p {}
+
+                        .paragraph {}
+
+                        .buttons {
+                            display: flex;
+                            margin: 0 auto;
+                            column-gap: 10px;
+                            .blue {
+                                background-color: blue;
+                                border-radius: 50%;
+                                width: 20px;
+                                height: 20px;
+                            }
+
+                            .green {
+                                background-color: green;
+                                border-radius: 50%;
+                                width: 20px;
+                                height: 20px;
+                            }
+
+                            .orange {
+                                background-color: orange;
+                                border-radius: 50%;
+                                width: 20px;
+                                height: 20px;
+                            }
+
+                            .black {
+                                background-color: black;
+                                border-radius: 50%;
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            }
+        }
+    }
+}
+
+
+
+
+
+// /* Extra small devices (phones, 600px and down) */
+// @media only screen and (max-width: 600px) {...}
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {...}
+
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {...}
+
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {...}
+
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {...}

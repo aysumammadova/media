@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    main{
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+        .products{
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            .about{
+                text-align: center;
+                width: 40%;
+                padding: 150px 20px;
+                h5{
+                    color: green;
+                    margin-bottom: 20px;
+                    font-size: 25px;
+                }
+                h1{
+                    color: rgb(73, 1, 1);
+                    font-size: 33px;
+                    line-height: 1;
+                }
+                p{
+                    margin:20px 0;
+                    opacity: 0.8;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 700;
+                }
+            }
+            .gallery{
+                display: flex;
+                margin: 0 auto;
+                width: 60%;
+                gap: 20px;
+                .cards{
+                    margin-top: 50px;
+                    .image{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .cards--info{
+                        text-align: center;
+                        h6{
+                            font-size: 18px;
+                           padding: 10px o;
+                        }
+                        p{
+                            font-size: 12px;
+                        }
+                        .price{
+                            font-size: 14px;
+                            padding: 5px 0;
+                        }
+                        .colors{
+                            display: flex;
+                            margin: 0 auto;
+                            gap: 10px;
+                            .blue{
+                                margin-left: 40px;
+                                border-radius: 50%;
+                                width: 15px;
+                                height: 15px;
+                                background-color: rgb(17, 203, 216);
+                            }
+                            .green{
+                                border-radius: 50%;
+                                width: 15px;
+                                height: 15px;
+                                background-color: green;
+                            }
+                            .yellow{
+                                border-radius: 50%;
+                                width: 15px;
+                                height: 15px;
+                                background-color: rgb(243, 146, 19);
+                            }
+                            .black{
+                                border-radius: 50%;
+                                width: 15px;
+                                height: 15px;
+                                background-color: rgb(43, 6, 4);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    section{
+        main{
+            display: flex;
+            margin: 0 auto;
+            width: 80%;
+            .products{
+                width: 100%;
+                margin: 0 auto;
+                
+                .about{
+                    text-align: inherit;
+                    width: 100%;
+                    padding-top: 20px;
+                    h5{
+                        color: green;
+                        margin-bottom: 20px;
+                        font-size: 25px;
+                    }
+                    h1{
+                        color: rgb(73, 1, 1);
+                        font-size: 33px;
+                        line-height: 1;
+                    }
+                    p{
+                        margin:20px 0;
+                        opacity: 0.8;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+                    }
+                }
+                .gallery{
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0 auto;
+                    gap: 20px;
+                    .cards{
+                        margin-top: 50px;
+                        .image{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .cards--info{
+                            text-align: center;
+                            h6{
+                                font-size: 25px;
+                               padding: 10px o;
+                            }
+                            p{
+                                font-size: 20px;
+                            }
+                            .price{
+                                font-size: 20px;
+                                padding: 5px 0;
+                            }
+                            .colors{
+                                display: flex;
+                                margin: 0 auto;
+                                gap: 10px;
+                                .blue{
+                                    margin-left: 40px;
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(17, 203, 216);
+                                }
+                                .green{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: green;
+                                }
+                                .yellow{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(243, 146, 19);
+                                }
+                                .black{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(43, 6, 4);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    section{
+        main{
+            display: flex;
+            margin: 0 auto;
+            width: 80%;
+            .products{
+                width: 100%;
+                margin: 0 auto;
+                
+                .about{
+                    text-align: inherit;
+                    width: 100%;
+                    padding-top: 20px;
+                    h5{
+                        color: green;
+                        margin-bottom: 20px;
+                        font-size: 25px;
+                    }
+                    h1{
+                        color: rgb(73, 1, 1);
+                        font-size: 33px;
+                        line-height: 1;
+                    }
+                    p{
+                        margin:20px 0;
+                        opacity: 0.8;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+                    }
+                }
+                .gallery{
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0 auto;
+                    gap: 20px;
+                    .cards{
+                        margin-top: 50px;
+                        .image{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .cards--info{
+                            text-align: center;
+                            h6{
+                                font-size: 25px;
+                               padding: 10px o;
+                            }
+                            p{
+                                font-size: 20px;
+                            }
+                            .price{
+                                font-size: 20px;
+                                padding: 5px 0;
+                            }
+                            .colors{
+                                display: flex;
+                                margin: 0 auto;
+                                gap: 10px;
+                                .blue{
+                                    margin-left: 40px;
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(17, 203, 216);
+                                }
+                                .green{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: green;
+                                }
+                                .yellow{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(243, 146, 19);
+                                }
+                                .black{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(43, 6, 4);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    section{
+        main{
+            display: flex;
+            margin: 0 auto;
+            width: 80%;
+            .products{
+                width: 100%;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                .about{
+                    text-align: center;
+                    padding: 50px;
+                    h5{
+                        color: green;
+                        margin-bottom: 20px;
+                        font-size: 50px;
+                    }
+                    h1{
+                        color: rgb(73, 1, 1);
+                        font-size: 40px;
+                        line-height: 1;
+                    }
+                    p{
+                        margin:20px 0;
+                        opacity: 0.8;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+                    }
+                }
+                .gallery{
+                    flex-direction: column;
+                    display: flex;
+                    margin: 0 auto;
+                    gap: 20px;
+                    .cards{
+                        margin-top: 50px;
+                        .image{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .cards--info{
+                            text-align: center;
+                            h6{
+                                font-size: 30px;
+                               padding: 10px o;
+                            }
+                            p{
+                                font-size: 20px;
+                            }
+                            .price{
+                                font-size: 24px;
+                                padding: 5px 0;
+                            }
+                            .colors{
+                                display: flex;
+                                margin: 0 auto;
+                                gap: 10px;
+                                .blue{
+                                    margin-left: 40px;
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(17, 203, 216);
+                                }
+                                .green{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: green;
+                                }
+                                .yellow{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(243, 146, 19);
+                                }
+                                .black{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(43, 6, 4);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    section{
+        main{
+            display: flex;
+            margin: 0 auto;
+            width: 80%;
+            .products{
+                width: 100%;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                .about{
+                    text-align: center;
+                    padding: 50px;
+                    h5{
+                        color: green;
+                        margin-bottom: 20px;
+                        font-size: 50px;
+                    }
+                    h1{
+                        color: rgb(73, 1, 1);
+                        font-size: 40px;
+                        line-height: 1;
+                    }
+                    p{
+                        margin:20px 0;
+                        opacity: 0.8;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+                    }
+                }
+                .gallery{
+                    flex-direction: column;
+                    display: flex;
+                    margin: 0 auto;
+                    gap: 20px;
+                    .cards{
+                        margin-top: 50px;
+                        .image{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .cards--info{
+                            text-align: center;
+                            h6{
+                                font-size: 30px;
+                               padding: 10px o;
+                            }
+                            p{
+                                font-size: 20px;
+                            }
+                            .price{
+                                font-size: 24px;
+                                padding: 5px 0;
+                            }
+                            .colors{
+                                display: flex;
+                                margin: 0 auto;
+                                gap: 10px;
+                                .blue{
+                                    margin-left: 40px;
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(17, 203, 216);
+                                }
+                                .green{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: green;
+                                }
+                                .yellow{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(243, 146, 19);
+                                }
+                                .black{
+                                    border-radius: 50%;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-color: rgb(43, 6, 4);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+}
+main .container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+main .container ul {
+  display: flex;
+  list-style-type: none;
+}
+main .container ul li {
+  display: flex;
+  flex-direction: column;
+}
+main .container ul li .text {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+main .container ul li .about ul {
+  display: block;
+}
+main .container ul li .about ul li .cards {
+  display: flex;
+}
+main .container ul li .about ul li .cards .cards--img {
+  width: 20%;
+}
+main .container ul li .about ul li .cards .cards--img img {
+  width: 100%;
+}
+main .container ul li .about ul li .cards .cards--info {
+  margin: 15px 5px;
+}
+main .container ul li .about ul li .cards .cards--info h5 {
+  font-size: 17px;
+}
+main .container ul li .about ul li .cards .cards--info .price {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  main .container ul {
+    flex-wrap: wrap;
+  }
+  main .container ul li .text {
+    font-size: 50px;
+  }
+  main .container ul li .about ul li {
+    width: 700px;
+  }
+  main .container ul li .about ul li .cards .cards--info h5 {
+    font-size: 25px;
+  }
+  main .container ul li .about ul li .cards .cards--info .price {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */

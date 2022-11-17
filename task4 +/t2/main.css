@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+main .container {
+  width: 100%;
+  margin: 0 auto;
+}
+main .container .header {
+  margin: 50px 0;
+  gap: 25px;
+  display: flex;
+}
+main .container .header h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: left;
+}
+main .container .header .links {
+  margin: 5px 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+main .container .header .links a {
+  text-decoration: none;
+  font-size: 15px;
+}
+main .container .header .buttons {
+  margin: 5px 30px;
+  text-align: right;
+}
+main .container .header .buttons a {
+  margin: 0 10px;
+  text-decoration: none;
+  border-radius: 50%;
+  border: 1px solid gray;
+  padding: 8px 15px;
+}
+main .container .line {
+  margin: 30px 0;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+}
+main .container .images {
+  width: 100%;
+  display: flex;
+}
+main .container .images .cards {
+  margin: 0 20px;
+}
+main .container .images .cards .cards--img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .line {
+    display: none !important;
+  }
+  main .container .header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main .container .header .links {
+    margin: 20px 0;
+  }
+  main .container .header .links a {
+    margin-right: 20px;
+  }
+  main .container .header .links .buttons {
+    text-align: center;
+  }
+  main .container .header .links .buttons a {
+    margin: 0 40px;
+  }
+  main .container .line {
+    display: none !important;
+  }
+  main .container .images {
+    flex-direction: column;
+  }
+  main .container .images .cards .cards--info {
+    line-height: 30px;
+  }
+  main .container .images .cards .cards--info .color {
+    display: flex;
+    gap: 10px;
+  }
+  main .container .images .cards .cards--info .color .blue {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+  }
+  main .container .images .cards .cards--info .color .green {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+  }
+  main .container .images .cards .cards--info .color .yellow {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+  }
+  main .container .images .cards .cards--info .color .black {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .line {
+    display: none !important;
+  }
+  main .container .header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main .container .header .links {
+    margin: 20px 0;
+  }
+  main .container .header .links a {
+    margin-right: 20px;
+  }
+  main .container .header .links .buttons {
+    text-align: center;
+  }
+  main .container .header .links .buttons a {
+    margin: 0 40px;
+  }
+  main .container .line {
+    display: none !important;
+  }
+  main .container .images {
+    flex-direction: column;
+  }
+  main .container .images .cards .cards--info {
+    line-height: 30px;
+  }
+  main .container .images .cards .cards--info .color {
+    display: flex;
+  }
+  main .container .images .cards .cards--info .color .blue {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+  }
+  main .container .images .cards .cards--info .color .green {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+  }
+  main .container .images .cards .cards--info .color .yellow {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+  }
+  main .container .images .cards .cards--info .color .black {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+  }
+}/*# sourceMappingURL=main.css.map */

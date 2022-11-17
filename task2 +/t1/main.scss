@@ -1,0 +1,361 @@
+*{}
+
+section{
+    width: 100%;
+    .header{
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+            opacity: 0.7;
+            letter-spacing: 1px;
+        }
+        .links{
+            margin-top: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+            display: inline-flex;
+            gap: 20px;
+            .link {
+                    text-decoration: none;
+                    background-color: #fff;
+                    padding: 8px 20px;
+                    border-radius: 20px;
+                    color: blue;
+                    border: solid 1px;
+                }
+        }
+    }
+    
+    .gallery{
+        display: flex;
+        gap: 40px;
+        justify-content: space-around;
+        flex-direction: column;
+        .cards{
+                text-align: center;
+                align-items: center;
+            .image{
+                width: 100%;
+                height: auto;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .about{
+                h5{ font-size: 15px;}
+                p{ font-size: 12px;
+                opacity: 0.8;}
+
+                .buttons{
+                    display: flex;
+                    gap: 5px;
+                    margin-bottom: 30px;
+                    .blue{
+                        width: 15px;
+                        height: 15px;
+                        background-color: blue;
+                        border-radius: 50%;
+                    }
+                    .green{
+                        width: 15px;
+                        height: 15px;
+                        background-color: green;
+                        border-radius: 50%;
+                    }
+                    .orange{
+                        width: 15px;
+                        height: 15px;
+                        background-color: orange;
+                        border-radius: 50%;
+                    }
+                    .black{
+                        width: 15px;
+                        height: 15px;
+                        background-color: black;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+      
+        section{
+            width: 100%;
+        height: 100vh;
+        .header{}
+            .gallery{
+                flex-direction: column;
+
+                .about{   
+                     display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: auto;
+                    margin: 0;
+                    flex-direction: column;
+                    padding: 0;
+                    h5{
+                        font-size: 30px;
+                        margin: 0;
+                    }
+                    p{
+                     font-size: 25px;
+                    }
+                    .gray{
+                        font-size: 25px;
+                    }
+                    .g6{
+                        font-size: 40px;
+                    }
+                    .buttons{
+                        gap: 20px;
+                        .blue{
+                            width: 30px;
+                            height: 30px;
+                        }
+                        .green{
+                            width: 30px;
+                            height: 30px;
+                        }
+                        .orange{
+                            width: 30px;
+                            height: 30px;
+                        }
+                        .black{
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+      
+    section{
+        width: 100%;
+    height: 100vh;
+    .header{}
+        .gallery{
+            flex-direction: column;
+
+            .about{   
+                 display: flex;
+                align-items: center;
+                width: 100%;
+                height: auto;
+                margin: 0;
+                flex-direction: column;
+                padding: 0;
+                h5{
+                    font-size: 30px;
+                    margin: 0;
+                }
+                p{
+                 font-size: 25px;
+                }
+                .gray{
+                    font-size: 25px;
+                }
+                .g6{
+                    font-size: 40px;
+                }
+                .buttons{
+                    gap: 20px;
+                    .blue{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .green{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .orange{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .black{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+      
+    section{
+        width: 100%;
+    height: 100vh;
+    .header{}
+        .gallery{
+            flex-direction: column;
+
+            .about{   
+                 display: flex;
+                align-items: center;
+                width: 100%;
+                height: auto;
+                margin: 0;
+                flex-direction: column;
+                padding: 0;
+                h5{
+                    font-size: 30px;
+                    margin: 0;
+                }
+                p{
+                 font-size: 25px;
+                }
+                .gray{
+                    font-size: 25px;
+                }
+                .g6{
+                    font-size: 40px;
+                }
+                .buttons{
+                    gap: 20px;
+                    .blue{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .green{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .orange{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .black{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+      
+    section{
+        width: 100%;
+    height: 100vh;
+    .header{}
+        .gallery{
+
+            .about{   
+                 display: flex;
+                align-items: center;
+                width: 100%;
+                height: auto;
+                margin: 0;
+                flex-direction: column;
+                padding: 0;
+                h5{
+                    font-size: 30px;
+                    margin: 0;
+                }
+                p{
+                 font-size: 25px;
+                }
+                .gray{
+                    font-size: 25px;
+                }
+                .g6{
+                    font-size: 40px;
+                }
+                .buttons{
+                    gap: 20px;
+                    .blue{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .green{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .orange{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .black{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    section{
+        width: 100%;
+    height: 100vh;
+    .header{}
+        .gallery{
+
+            .about{   
+                 display: flex;
+                align-items: center;
+                width: 100%;
+                height: auto;
+                margin: 0;
+                flex-direction: column;
+                padding: 0;
+                h5{
+                    font-size: 30px;
+                    margin: 0;
+                }
+                p{
+                 font-size: 25px;
+                }
+                .gray{
+                    font-size: 25px;
+                }
+                .g6{
+                    font-size: 40px;
+                }
+                .buttons{
+                    gap: 20px;
+                    .blue{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .green{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .orange{
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .black{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

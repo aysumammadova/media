@@ -1,0 +1,187 @@
+section {
+  width: 100%;
+}
+section .header {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+section .header h2 {
+  font-size: 20px;
+}
+section .header p {
+  font-size: 15px;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+section .header .links {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: inline-flex;
+  gap: 20px;
+}
+section .header .links .link {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  color: blue;
+  border: solid 1px;
+}
+section .gallery {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+section .gallery .cards {
+  text-align: center;
+  align-items: center;
+}
+section .gallery .cards .image {
+  width: 100%;
+  height: auto;
+}
+section .gallery .cards .image img {
+  width: 100%;
+  height: auto;
+}
+section .gallery .cards .about h5 {
+  font-size: 15px;
+}
+section .gallery .cards .about p {
+  font-size: 12px;
+  opacity: 0.8;
+}
+section .gallery .cards .about .buttons {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+section .gallery .cards .about .buttons .blue {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+  border-radius: 50%;
+}
+section .gallery .cards .about .buttons .green {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+}
+section .gallery .cards .about .buttons .orange {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 50%;
+}
+section .gallery .cards .about .buttons .black {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  section {
+    width: 100%;
+    height: 100vh;
+  }
+  section .gallery {
+    flex-direction: column;
+  }
+  section .gallery .about {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    flex-direction: column;
+    padding: 0;
+  }
+  section .gallery .about h5 {
+    font-size: 30px;
+    margin: 0;
+  }
+  section .gallery .about p {
+    font-size: 25px;
+  }
+  section .gallery .about .gray {
+    font-size: 25px;
+  }
+  section .gallery .about .g6 {
+    font-size: 40px;
+  }
+  section .gallery .about .buttons {
+    gap: 20px;
+  }
+  section .gallery .about .buttons .blue {
+    width: 30px;
+    height: 30px;
+  }
+  section .gallery .about .buttons .green {
+    width: 30px;
+    height: 30px;
+  }
+  section .gallery .about .buttons .orange {
+    width: 30px;
+    height: 30px;
+  }
+  section .gallery .about .buttons .black {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  section {
+    width: 100%;
+    height: 100vh;
+  }
+  section .gallery {
+    flex-direction: column;
+  }
+  section .gallery .about {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    flex-direction: column;
+    padding: 0;
+  }
+  section .gallery .about h5 {
+    font-size: 30px;
+    margin: 0;
+  }
+  section .gallery .about p {
+    font-size: 25px;
+  }
+  section .gallery .about .gray {
+    font-size: 25px;
+  }
+  section .gallery .about .g6 {
+    font-size: 40px;
+  }
+  section .gallery .about .buttons {
+    gap: 20px;
+  }
+  section .gallery .about .buttons .blue {
+    width: 30px;
+    height: 30px;
+  }
+  section .gallery .about .buttons .green {
+    width: 30px;
+    height: 30px;
+  }
+  section .gallery .about .buttons .orange {
+    width: 30px;
+    height: 30px;
+  }
+  section .gallery .about .buttons .black {
+    width: 30px;
+    height: 30px;
+  }
+}/*# sourceMappingURL=main.css.map */

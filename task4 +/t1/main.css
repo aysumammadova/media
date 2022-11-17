@@ -1,0 +1,87 @@
+main {
+  width: 100%;
+  display: flex;
+}
+main .container {
+  width: 80%;
+}
+main .container .header {
+  justify-content: center;
+}
+main .container .header h3 {
+  font-size: 30px;
+}
+main .container .header h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+main .container .header p {
+  opacity: 0.7;
+  font-size: 25px;
+}
+main .container .header .links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .container .header .links .men {
+  border-radius: 5px;
+  height: 10px;
+  width: 15px;
+  background-color: #FFF;
+  color: rgb(84, 160, 225);
+}
+main .container .header .links .women {
+  border-radius: 5px;
+  height: 10px;
+  width: 15px;
+  background-color: #FFF;
+  color: rgb(84, 160, 225);
+}
+main .container .header .links .accessories {
+  border-radius: 5px;
+  height: 10px;
+  width: 15px;
+  background-color: #FFF;
+  color: rgb(84, 160, 225);
+}
+main .container .gallery {
+  width: 100%;
+}
+main .container .gallery .photos {
+  width: 80%;
+  display: flex;
+}
+main .container .gallery .photos .cards {
+  width: 100%;
+}
+main .container .gallery .photos .cards .img {
+  width: 100%;
+}
+main .container .gallery .photos .cards .img img {
+  width: 100%;
+  height: auto;
+}
+main .container .gallery .photos .cards h5 {
+  font-size: 18px;
+}
+main .container .gallery .photos .cards p {
+  opacity: 0.7;
+  font-size: 15px;
+}
+main .container .gallery .photos .cards .price {
+  font-size: 20px;
+}
+main .container .footer {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+main .container .footer a {
+  width: 15px;
+  height: 10px;
+  background-color: #fff;
+  color: aqua;
+  border-radius: 5px;
+  border: 2px solid aqua;
+}/*# sourceMappingURL=main.css.map */
